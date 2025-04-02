@@ -34,7 +34,7 @@ if you want to clone this repo or get a template
 
 # Modern Portfolio Website
 
-![Portfolio Preview](./preview.jpg)
+![Portfolio Preview](./preview.jpg) https://nationsahil.github.io/AI-ML-Resume/
 
 A modern, responsive portfolio website featuring dark mode, project filtering, and interactive elements. Built with pure HTML/CSS/JavaScript.
 
