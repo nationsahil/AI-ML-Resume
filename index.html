@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Khan - AI/ML Engineer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="gradient-text">Ali Khan</h1>
+            <h2>AI/ML Engineering Innovator</h2>
+            <button id="theme-toggle" class="theme-btn">
+                ☀️
+            </button>
+            <a href="resume.pdf" class="resume-btn" download>
+                Download Resume
+            </a>
+            <a href="blog.html" class="resume-btn">View Technical Blog</a>
+            <div class="skill-cloud"></div>
+        </div>
+    </header>
+
+    <section class="tech-stack">
+        <div class="tech-grid">
+            <div class="tech-item">
+                <div class="tech-name">
+                    <span>Python</span>
+                    <div class="cloud-badge">Core</div>
+                </div>
+                <div class="tech-proficiency" style="--proficiency: '90%'"></div>
+            </div>
+            <div class="tech-item">
+                <div class="tech-name">
+                    <span>Scikit-learn</span>
+                    <div class="cloud-badge">Core</div>
+                </div>
+                <div class="tech-proficiency" style="--proficiency: '85%'"></div>
+            </div>
+            <div class="tech-item">
+                <div class="tech-name">
+                    <span>OpenCV</span>
+                    <div class="cloud-badge">Azure</div>
+                </div>
+                <div class="tech-proficiency" style="--proficiency: '80%'"></div>
+            </div>
+            <div class="tech-item">
+                <div class="tech-name">
+                    <span>Hugging Face</span>
+                    <div class="cloud-badge">GCP</div>
+                </div>
+                <div class="tech-proficiency" style="--proficiency: '88%'"></div>
+            </div>
+            <div class="tech-item">
+                <div class="tech-name">
+                    <span>LLM Fine-Tuning</span>
+                    <div class="cloud-badge">AWS</div>
+                </div>
+                <div class="tech-proficiency" style="--proficiency: '92%'"></div>
+            </div>
+            <div class="tech-item">
+                <div class="tech-name">
+                    <span>PyTorch</span>
+                    <div class="cloud-badge">AWS</div>
+                </div>
+                <div class="tech-proficiency" style="--proficiency: '88%'"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects">
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="nlp">NLP</button>
+            <button class="filter-btn" data-filter="cv">Computer Vision</button>
+            <button class="filter-btn" data-filter="ai">AI Models</button>
+            <button class="filter-btn" data-filter="nlp">NLP</button>
+            <button class="filter-btn" data-filter="optimization">Optimization</button>
+        </div>
+        
+        <div class="project-grid">
+            <!-- Project cards will be dynamically populated -->
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
