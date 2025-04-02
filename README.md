@@ -30,4 +30,67 @@ Welcome to my portfolio! I'm **Ali Khan**, an aspiring **AI/ML Engineer** passio
 ---
 
 ### ⭐ Let's Build the Future of AI Together! 🚀  
+if you want to clone this repo or get a template
 
+# Modern Portfolio Website
+
+![Portfolio Preview](./preview.jpg)
+
+A modern, responsive portfolio website featuring dark mode, project filtering, and interactive elements. Built with pure HTML/CSS/JavaScript.
+
+## Features
+- 🎨 Dual theme support (light/dark mode)
+- 🔍 Project filtering system
+- 📱 Fully responsive design
+- 📊 Interactive skill visualizations
+- 🛠️ Modern CSS animations and transitions
+- 📈 Performance metrics display
+
+## Installation
+1. Clone repository:
+```bash
+git clone https://github.com/yourusername/portfolio.git
+```
+2. Install live-server:
+```bash
+npm install -g live-server
+```
+3. Start development server:
+```bash
+npx live-server --port=8000
+```
+
+## Usage
+- Click theme toggle button (🌙/☀️) to switch modes
+- Use filter buttons to sort projects
+- Hover over project cards for interactions
+- Click blog posts to read details
+
+## Tech Stack
+- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
+- **Styling**: CSS Variables, Flexbox, Grid
+- **Tools**: Live Server
+
+## Customization
+Modify CSS variables in `style.css`:
+```css
+:root {
+  --primary: #1A365F;
+  --secondary: #3A86FF;
+  --accent: #FF6B6B;
+}
+```
+
+Add projects in `index.html`:
+```html
+<div class="project-card">
+  <h3>New Project</h3>
+  <p>Project description</p>
+</div>
+```
+
+## Live Preview
+Access locally at: http://localhost:8000
+
+## License
+[MIT](LICENSE)
