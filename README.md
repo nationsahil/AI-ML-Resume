@@ -49,7 +49,7 @@ A modern, responsive portfolio website featuring dark mode, project filtering, a
 ## Installation
 1. Clone repository:
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+https://github.com/nationsahil/AI-ML-Resume.git
 ```
 2. Install live-server:
 ```bash
